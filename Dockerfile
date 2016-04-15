@@ -2,7 +2,7 @@ FROM islandora-claw/base
 MAINTAINER Nigel Banks <nigel.g.banks@gmail.com>
 
 LABEL "Description"="Base Java for Islandora CLAW" \
-      "License"="GPLv3" \
+      "License"="MIT" \
       "Version"="0.0.1"
 
 ARG JAVA_VERSION=8.72.15
