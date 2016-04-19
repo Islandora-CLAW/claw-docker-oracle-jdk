@@ -1,9 +1,9 @@
 # Islandora CLAW: Java Docker Image
 
-[![Docker Stars](https://img.shields.io/docker/stars/islandora-claw/oracle-jdk.svg)](https://hub.docker.com/r/islandora-claw/oracle-jdk/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/islandora-claw/oracle-jdk.svg)](https://hub.docker.com/r/islandora-claw/oracle-jdk/)
-[![Image Size](https://img.shields.io/imagelayers/image-size/islandora-claw/oracle-jdk/latest.svg)](https://imagelayers.io/?images=islandora-claw/oracle-jdk:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/islandora-claw/oracle-jdk/latest.svg)](https://imagelayers.io/?images=islandora-claw/oracle-jdk:latest)
+[![Docker Stars](https://img.shields.io/docker/stars/islandora/claw-oracle-jdk.svg)](https://hub.docker.com/r/islandora/claw-oracle-jdk/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/islandora/claw-oracle-jdk.svg)](https://hub.docker.com/r/islandora/claw-oracle-jdk/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/islandora/claw-oracle-jdk/latest.svg)](https://imagelayers.io/?images=islandora/claw-oracle-jdk:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/islandora/claw-oracle-jdk/latest.svg)](https://imagelayers.io/?images=islandora/claw-oracle-jdk:latest)
 
 ### Introduction
 
@@ -22,7 +22,7 @@ No build arguments are provided.
 
 **Example:**
 ```bash
-docker build -t islandora-claw/oracle-jdk .
+docker build -t islandora/claw-oracle-jdk .
 ```
 
 ### Environment Variables
@@ -33,7 +33,7 @@ docker build -t islandora-claw/oracle-jdk .
 
 **Example (foreground, auto-remove, interactive shell):**
 ```bash
-docker run --rm -ti islandora-claw/oracle-jdk ash
+docker run --rm -ti islandora/claw-oracle-jdk ash
 ```
 
 ### Notes
