@@ -2,21 +2,18 @@
 
 [![Docker Stars](https://img.shields.io/docker/stars/islandora/claw-oracle-jdk.svg)](https://hub.docker.com/r/islandora/claw-oracle-jdk/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/islandora/claw-oracle-jdk.svg)](https://hub.docker.com/r/islandora/claw-oracle-jdk/)
-[![Image Size](https://img.shields.io/imagelayers/image-size/islandora/claw-oracle-jdk/latest.svg)](https://imagelayers.io/?images=islandora/claw-oracle-jdk:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/islandora/claw-oracle-jdk/latest.svg)](https://imagelayers.io/?images=islandora/claw-oracle-jdk:latest)
 
-### Introduction
+## Introduction
 
-Defines the Java Docker image from which we build our Java based images (Tomcat,
-Karaf, etc), uses Oracle JDK.
+Defines the Java Docker image from which we build our Java based images (Tomcat, Karaf, etc), uses Oracle JDK.
 
 Based on the [Base Docker Image](https://github.com/Islandora-CLAW/docker-base).
 
-### Includes
+## Includes
 
 * Oracle Java 8
 
-### Build Arguments
+## Build Arguments
 
 No build arguments are provided.
 
@@ -25,7 +22,7 @@ No build arguments are provided.
 docker build -t islandora/claw-oracle-jdk .
 ```
 
-### Environment Variables
+## Environment Variables
 
 | Variable  | Required | Default |
 |-----------|----------|---------|
@@ -36,13 +33,13 @@ docker build -t islandora/claw-oracle-jdk .
 docker run --rm -ti islandora/claw-oracle-jdk ash
 ```
 
-### Notes
+## Notes
 
 Currently this has been tested to work with Tomcat, but only lightly. It is
 known to not work with Karaf, and at the moment further development on this
 image is halted.
 
-### Maintainers/Sponsors
+## Maintainers/Sponsors
 
 * UPEI
 * discoverygarden inc.
@@ -59,21 +56,14 @@ image is halted.
 Current maintainers:
 
 * [Nigel Banks](https://github.com/nigelgbanks)
+* [Nick Ruest](https://github.com/ruebot)
 
-### Development
+## Development
 
-If you would like to contribute, please get involved with the
-[Islandora Fedora 4 Interest Group](https://github.com/Islandora/Islandora-Fedora4-Interest-Group).
-We love to hear from you!
+If you would like to contribute, please get involved by attending our weekly [Tech Call](https://github.com/Islandora-CLAW/CLAW/wiki). We love to hear from you!
 
-If you would like to contribute code to the project, you need to be covered by
-an Islandora Foundation
-[Contributor License Agreement](http://islandora.ca/sites/default/files/islandora_cla.pdf)
-or
-[Corporate Contributor Licencse Agreement](http://islandora.ca/sites/default/files/islandora_ccla.pdf).
-Please see the [Contributors](http://islandora.ca/resources/contributors) pages
-on Islandora.ca for more information.
+If you would like to contribute code to the project, you need to be covered by an Islandora Foundation [Contributor License Agreement](http://islandora.ca/sites/default/files/islandora_cla.pdf) or [Corporate Contributor Licencse Agreement](http://islandora.ca/sites/default/files/islandora_ccla.pdf). Please see the [Contributors](http://islandora.ca/resources/contributors) pages on Islandora.ca for more information.
 
-### License
+## License
 
 [MIT](https://opensource.org/licenses/MIT)
